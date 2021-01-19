@@ -1,0 +1,1158 @@
+﻿Log file open, 10/29/20 15:38:51
+LogInit:Display: Running engine for game: Juego1
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-556886064) SRandInit(-556886064).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 4.426255
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: F:/Juegos Epic/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2020.10.29-14.38.52:767][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.29-14.38.52:767][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.10.29-14.38.52:931][  0]LogInit: Computer: ELBARTO
+[2020.10.29-14.38.52:931][  0]LogInit: User: aleja
+[2020.10.29-14.38.52:931][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.10.29-14.38.52:931][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.10.29-14.38.52:931][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2020.10.29-14.38.52:931][  0]LogMemory: Platform Memory Stats for Windows
+[2020.10.29-14.38.52:931][  0]LogMemory: Process Physical Memory: 277.44 MB used, 277.44 MB peak
+[2020.10.29-14.38.52:931][  0]LogMemory: Process Virtual Memory: 261.15 MB used, 261.15 MB peak
+[2020.10.29-14.38.52:931][  0]LogMemory: Physical Memory: 7360.44 MB used,  8990.70 MB free, 16351.14 MB total
+[2020.10.29-14.38.52:931][  0]LogMemory: Virtual Memory: 4758.63 MB used,  8990.70 MB free, 134217728.00 MB total
+[2020.10.29-14.38.54:660][  0]LogInit: Overriding language with editor language configuration option (en).
+[2020.10.29-14.38.54:660][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2020.10.29-14.39.02:156][  0]LogD3D11RHI: D3D11 adapters:
+[2020.10.29-14.39.02:266][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2020.10.29-14.39.02:266][  0]LogD3D11RHI:       8088/0/8175 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.10.29-14.39.02:269][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.10.29-14.39.02:269][  0]LogD3D11RHI:       0/0/8175 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.10.29-14.39.02:269][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.10.29-14.39.02:282][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.10.29-14.39.02:283][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2020.10.29-14.39.02:283][  0]LogWindows: EnumDisplayDevices:
+[2020.10.29-14.39.02:283][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2020.10.29-14.39.02:283][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2020.10.29-14.39.02:284][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.10.29-14.39.02:284][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.10.29-14.39.02:284][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.10.29-14.39.02:284][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2020.10.29-14.39.02:284][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.10.29-14.39.02:284][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.10.29-14.39.02:284][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2020.10.29-14.39.02:382][  0]LogD3D11RHI: Async texture creation enabled
+[2020.10.29-14.39.02:763][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.10.29-14.39.02:846][  0]LogShaderCompilers: Guid format shader working directory is 0 characters bigger than the processId version (E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Intermediate/Shaders/WorkingDirectory/16092/).
+[2020.10.29-14.39.02:846][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/aleja/AppData/Local/Temp/UnrealShaderWorkingDir/017960144F832B68FBD084BD04E19C7E/'.
+[2020.10.29-14.39.02:848][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2020.10.29-14.39.08:377][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2020.10.29-14.39.08:446][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2020.10.29-14.39.08:521][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2020.10.29-14.39.08:596][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2020.10.29-14.39.08:682][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2020.10.29-14.39.08:752][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2020.10.29-14.39.08:823][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.10.29-14.39.08:891][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2020.10.29-14.39.08:954][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2020.10.29-14.39.09:032][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2020.10.29-14.39.09:099][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2020.10.29-14.39.09:166][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2020.10.29-14.39.09:231][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2020.10.29-14.39.09:304][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2020.10.29-14.39.09:375][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2020.10.29-14.39.09:513][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2020.10.29-14.39.09:513][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2020.10.29-14.39.09:567][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2020.10.29-14.39.09:761][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2020.10.29-14.39.09:804][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2020.10.29-14.39.09:873][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2020.10.29-14.39.09:942][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2020.10.29-14.39.10:011][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2020.10.29-14.39.10:113][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2020.10.29-14.39.10:113][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2020.10.29-14.39.12:004][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2020.10.29-14.39.12:767][  0]LogDerivedDataCache: Loaded boot cache 0.76s 90MB C:/Users/aleja/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2020.10.29-14.39.12:767][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/aleja/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2020.10.29-14.39.12:768][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.10.29-14.39.12:768][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.10.29-14.39.12:768][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.29-14.39.12:768][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.10.29-14.39.12:868][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.10.29-14.39.12:881][  0]LogDerivedDataCache: Using Local data cache path C:/Users/aleja/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.10.29-14.39.12:955][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.10.29-14.39.13:016][  0]LogSlate: Using Freetype 2.6.0
+[2020.10.29-14.39.13:170][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.10.29-14.39.13:170][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.10.29-14.39.23:211][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.29-14.39.24:535][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2020.10.29-14.39.25:550][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.10.29-14.39.25:782][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.10.29-14.39.25:883][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.10.29-14.39.25:883][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2020.10.29-14.39.25:883][  0]LogMeshUtilities: No automatic mesh merging module available
+[2020.10.29-14.39.32:129][  0]LogNetVersion: Juego1 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2391944700)
+[2020.10.29-14.39.32:560][  0]LogAssetRegistry: FAssetRegistry took 0.0291 seconds to start up
+[2020.10.29-14.39.32:682][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.069836 seconds
+[2020.10.29-14.39.32:688][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2020.10.29-14.39.32:688][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2020.10.29-14.39.32:688][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.10.29-14.39.32:841][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2020.10.29-14.39.54:842][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.10.29-14.39.54:927][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.10.29-14.39.57:060][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2020.10.29-14.39.58:122][  0]SourceControl: Info Source control is disabled
+[2020.10.29-14.39.58:136][  0]SourceControl: Info Source control is disabled
+[2020.10.29-14.39.58:284][  0]SourceControl: Info Source control is disabled
+[2020.10.29-14.39.58:356][  0]SourceControl: Info Source control is disabled
+[2020.10.29-14.40.00:419][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.10.29-14.40.01:903][  0]LogEngine: Initializing Engine...
+[2020.10.29-14.40.02:033][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.29-14.40.03:043][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.10.29-14.40.03:043][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.10.29-14.40.03:705][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.10.29-14.40.03:875][  0]LogInit: XAudio2 using 'PHL 273V5 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.10.29-14.40.03:911][  0]LogInit: FAudioDevice initialized.
+[2020.10.29-14.40.03:956][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/aleja/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2020.10.29-14.40.03:974][  0]LogInit: Texture streaming: Enabled
+[2020.10.29-14.40.04:245][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.10.29-14.40.04:881][  0]LogInit: Transaction tracking system initialized
+[2020.10.29-14.40.05:601][  0]BlueprintLog: New page: Editor Load
+[2020.10.29-14.40.07:892][  0]LocalizationService: Info Localization service is disabled
+[2020.10.29-14.40.09:538][  0]LogConsoleResponse:Display: 
+[2020.10.29-14.40.12:473][  0]LogFileCache: Scanning file cache for directory 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/' took 0.02s
+[2020.10.29-14.40.12:473][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.10.29-14.40.12:473][  0]LogCook:Display: Mobile HDR setting 1
+[2020.10.29-14.40.15:988][  0]SourceControl: Info Source control is disabled
+[2020.10.29-14.40.16:019][  0]Cmd: MAP LOAD FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.29-14.40.16:068][  0]LightingResults: New page: Lighting Build
+[2020.10.29-14.40.16:253][  0]MapCheck: New page: Map Check
+[2020.10.29-14.40.16:254][  0]LightingResults: New page: Lighting Build
+[2020.10.29-14.40.18:071][  0]LogAIModule: Creating AISystem for world nivel1
+[2020.10.29-14.40.18:509][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.29-14.40.18:572][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.29-14.40.18:669][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 96.894ms to complete.
+[2020.10.29-14.40.18:669][  0]LogFileHelpers: Loading map 'nivel1' took 2.652
+[2020.10.29-14.40.24:791][  0]LogCollectionManager: Loaded 0 collections in 0.002074 seconds
+[2020.10.29-14.40.25:064][  0]LogFileCache: Scanning file cache for directory 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/Collections/' took 0.01s
+[2020.10.29-14.40.25:064][  0]LogFileCache: Scanning file cache for directory 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/Developers/aleja/Collections/' took 0.01s
+[2020.10.29-14.40.25:064][  0]LogFileCache: Scanning file cache for directory 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/Collections/' took 0.01s
+[2020.10.29-14.40.25:064][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000011 seconds
+[2020.10.29-14.40.25:076][  0]LogContentBrowser: Native class hierarchy populated in 0.0109 seconds. Added 2329 classes and 491 folders.
+[2020.10.29-14.40.25:208][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2020.10.29-14.40.26:674][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0015 seconds. Added 0 classes and 0 folders.
+[2020.10.29-14.40.26:889][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2020.10.29-14.40.27:418][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2020.10.29-14.40.27:537][  0]LogSlate: Took 0.015484 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.10.29-14.40.27:549][  0]LogSlate: Took 0.010215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.10.29-14.40.27:591][  0]LogSlate: Took 0.015887 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.10.29-14.40.28:149][  0]LogRenderer: Reallocating scene render targets to support 1164x612 NumSamples 1 (Frame:1).
+[2020.10.29-14.40.28:633][  0]LogSlate: Took 0.008133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.10.29-14.40.28:732][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2020.10.29-14.40.28:908][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2020.10.29-14.40.28:908][  0]LogLoad: (Engine Initialization) Total time: 113.69 seconds
+[2020.10.29-14.40.28:908][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.79 seconds
+[2020.10.29-14.40.28:908][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2020.10.29-14.40.29:249][  0]LogOcInput: OculusInput pre-init called
+[2020.10.29-14.40.29:249][  0]LogHMD: Starting GearVRController plugin
+[2020.10.29-14.40.29:357][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.10.29-14.40.29:925][  2]LogAssetRegistry: Asset discovery search completed in 57.3873 seconds
+[2020.10.29-14.40.29:927][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2020.10.29-14.40.29:927][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000053 seconds (updated 0 objects)
+[2020.10.29-14.40.36:620][ 22]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.10.29-14.40.47:512][128]LogSlate: Took 0.000275 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.10.29-14.40.47:590][128]Cmd: MAP LOAD FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.29-14.40.47:590][128]LightingResults: New page: Lighting Build
+[2020.10.29-14.40.47:591][128]LoadErrors: New page: Loading map: nivel1.umap
+[2020.10.29-14.40.47:605][128]MapCheck: New page: Map Check
+[2020.10.29-14.40.47:605][128]LightingResults: New page: Lighting Build
+[2020.10.29-14.40.47:640][128]LogAIModule: Creating AISystem for world nivel1
+[2020.10.29-14.40.47:647][128]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.29-14.40.47:687][128]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.29-14.40.47:755][128]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 67.819ms to complete.
+[2020.10.29-14.40.47:756][128]LogFileHelpers: Loading map 'nivel1' took 0.183
+[2020.10.29-14.41.53:811][870]LogSlate: Took 0.000300 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.10.29-14.41.54:229][870]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0018 seconds. Added 112 classes and 0 folders.
+[2020.10.29-14.41.55:865][870]LogSlate: Took 0.015842 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.10.29-14.41.56:332][871]LogSlate: Took 0.018524 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.10.29-14.45.58:404][112]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Jugador/Enemigo/Enemigo" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Enemigo/Enemigo.uasset" SILENT=true
+[2020.10.29-14.45.58:499][112]LogSavePackage: Save=69.76ms
+[2020.10.29-14.45.58:499][112]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/Enemigo6917DD094C953F5C71AA2FA5C81C7376.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Enemigo/Enemigo.uasset'
+[2020.10.29-14.45.58:558][112]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Enemigo/Enemigo.uasset
+[2020.10.29-14.46.12:193][345]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Jugador/Enemigo/Enemigo" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Enemigo/Enemigo.uasset" SILENT=true
+[2020.10.29-14.46.12:247][345]LogSavePackage: Save=44.93ms
+[2020.10.29-14.46.12:247][345]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/EnemigoD89057B7422985674CF5458752F01ABA.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Enemigo/Enemigo.uasset'
+[2020.10.29-14.46.12:252][345]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Enemigo/Enemigo.uasset
+[2020.10.29-14.48.07:320][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Jugador/Jugador" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Jugador.uasset" SILENT=true
+[2020.10.29-14.48.07:397][159]LogSavePackage: Save=60.33ms
+[2020.10.29-14.48.07:397][159]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/Jugador5A17F9D64B46AA523A9774B2E78EF547.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Jugador.uasset'
+[2020.10.29-14.48.07:398][159]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Jugador.uasset
+[2020.10.29-14.48.54:047][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Jugador/Enemigo/Enemigo" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Enemigo/Enemigo.uasset" SILENT=true
+[2020.10.29-14.48.54:103][ 56]LogSavePackage: Save=47.89ms
+[2020.10.29-14.48.54:103][ 56]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/Enemigo858A23AE41D36D2F1B7E8AB332A025AA.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Enemigo/Enemigo.uasset'
+[2020.10.29-14.48.54:108][ 56]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Enemigo/Enemigo.uasset
+[2020.10.29-14.48.56:949][295]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/nivel1" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.29-14.48.57:041][295]LogSavePackage: Save=54.40ms
+[2020.10.29-14.48.57:041][295]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/nivel122D251E24C358F1DC396229860B56EC4.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1.umap'
+[2020.10.29-14.48.57:045][295]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1.umap
+[2020.10.29-14.48.57:081][295]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/nivel1_BuiltData" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1_BuiltData.uasset" SILENT=true
+[2020.10.29-14.48.57:166][295]LogSavePackage: Save=68.53ms
+[2020.10.29-14.48.57:166][295]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/nivel1_BuiltData1627FE0C4EBF7FADDB2BA584655AD42F.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1_BuiltData.uasset'
+[2020.10.29-14.48.57:167][295]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1_BuiltData.uasset
+[2020.10.29-14.48.57:981][389]MapCheck: New page: Map Check
+[2020.10.29-14.48.58:018][389]Cmd: MAP REBUILD ALLVISIBLE
+[2020.10.29-14.48.58:019][389]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2020.10.29-14.48.58:285][389]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2020.10.29-14.48.58:315][389]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, compiling. 
+[2020.10.29-14.48.58:321][389]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Oak, compiling. 
+[2020.10.29-14.48.58:328][389]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy TexturaMagicaVoxel_Mat, compiling. 
+[2020.10.29-14.49.00:275][389]TextureStreamingBuild:Display: Compiling optional shaders took 2.008 seconds.
+[2020.10.29-14.49.00:286][389]LogLevel:Display: Export Material TexCoord Scales took 0.011 seconds.
+[2020.10.29-14.49.00:290][389]TextureStreamingBuild:Display: Build Texture Streaming took 0.004 seconds.
+[2020.10.29-14.49.00:336][389]LightingResults: New page: Lighting Build - Oct 29, 2020, 4:49:00 PM
+[2020.10.29-14.49.00:534][389]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.10.29-14.49.00:878][389]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.10.29-14.49.00:912][389]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.10.29-14.49.02:465][389]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.10.29-14.49.02:465][389]LogSwarmInterface: [TryOpenConnection] Local Process ID is 16092
+[2020.10.29-14.49.05:080][389]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2020.10.29-14.49.05:080][389]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.10.29-14.49.05:080][389]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.10.29-14.49.05:080][389]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.10.29-14.49.05:080][389]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.10.29-14.49.05:080][389]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.10.29-14.49.05:311][389]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2020.10.29-14.49.05:311][389]MapCheck: New page: nivel1 - Oct 29, 2020, 4:49:05 PM
+[2020.10.29-14.49.05:387][389]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 75.616ms to complete.
+[2020.10.29-14.49.05:411][389]LogEditorBuildUtils: Build time 0:07
+[2020.10.29-14.49.08:378][578]Job is a success!
+[2020.10.29-14.49.08:717][580]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2020.10.29-14.49.08:717][580]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2020.10.29-14.49.08:717][580]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2020.10.29-14.49.08:717][580]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
+[2020.10.29-14.49.08:717][580]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2020.10.29-14.49.08:717][580]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2020.10.29-14.49.08:787][580]Lightmass on ELBARTO: 2.23 sec total, 210 ms importing, 31 ms setup, 566 ms photons, 1.36 sec processing, 0 ms extra exporting [7/7 mappings]. Threads: 9.31 sec total, 1.80 sec processing.
+[2020.10.29-14.49.08:843][580]LogStaticLightingSystem: Illumination: 8.50 sec (227 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2020.10.29-14.49.08:843][580]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (0.0 MB streaming, 2.7 MB non-streaming), 4 textures
+[2020.10.29-14.49.08:843][580]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2020.10.29-14.49.09:101][580]DumpUnbuiltLightIteractions
+[2020.10.29-14.49.09:101][580]Lights with unbuilt interactions: 0
+[2020.10.29-14.49.09:101][580]
+[2020.10.29-14.49.09:101][580]Primitives with unbuilt interactions: 0
+[2020.10.29-14.49.09:109][581]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.10.29-14.49.09:109][581]MapCheck: New page: nivel1 - Oct 29, 2020, 4:49:09 PM
+[2020.10.29-14.49.09:191][581]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 82.424ms to complete.
+[2020.10.29-14.49.10:369][717]LogTemp: Repeting last play command: Selected Viewport
+[2020.10.29-14.49.10:450][717]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.10.29-14.49.10:450][717]LogPlayLevel: [PlayLevel] Compiling Enemigo before play...
+[2020.10.29-14.49.10:587][717]LogPlayLevel: PlayLevel: Blueprint regeneration took 136 ms (1 blueprints)
+[2020.10.29-14.49.10:602][717]PIE: New page: PIE session: nivel1 (Oct 29, 2020, 4:49:10 PM)
+[2020.10.29-14.49.10:602][717]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_nivel1
+[2020.10.29-14.49.10:622][717]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020519s)
+[2020.10.29-14.49.10:623][717]LogAIModule: Creating AISystem for world nivel1
+[2020.10.29-14.49.10:623][717]LogPlayLevel: PIE: World Init took: (0.000801s)
+[2020.10.29-14.49.10:623][717]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/nivel1.nivel1 to /Game/UEDPIE_0_nivel1.nivel1 (0.021537s)
+[2020.10.29-14.49.10:689][717]LogInit: XAudio2 using 'PHL 273V5 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.10.29-14.49.10:735][717]LogInit: FAudioDevice initialized.
+[2020.10.29-14.49.10:817][717]LogLoad: Game class is 'miModoDeJuego_C'
+[2020.10.29-14.49.10:831][717]LogWorld: Bringing World /Game/UEDPIE_0_nivel1.nivel1 up for play (max tick rate 0) at 2020.10.29-15.49.10
+[2020.10.29-14.49.10:852][717]LogWorld: Bringing up level for play took: 0.021482
+[2020.10.29-14.49.10:963][717]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0010 seconds. Added 11 classes and 0 folders.
+[2020.10.29-14.49.10:975][717]PIE: Info Play in editor start time for /Game/UEDPIE_0_nivel1 0.342
+[2020.10.29-14.49.11:087][718]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.091247 > MaxSimulationTimeStep (0.050) for 'Jugador_C_0', movement 'Walking'
+[2020.10.29-14.49.34:584][358]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/nivel1" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.29-14.49.34:663][358]LogSavePackage: Save=52.78ms
+[2020.10.29-14.49.34:663][358]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/nivel137EE960F4D83094CF2F3E4B9E09E8FAF.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1.umap'
+[2020.10.29-14.49.34:667][358]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1.umap
+[2020.10.29-14.49.34:701][358]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/nivel1_BuiltData" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1_BuiltData.uasset" SILENT=true
+[2020.10.29-14.49.34:760][358]LogSavePackage: Save=51.79ms
+[2020.10.29-14.49.34:760][358]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/nivel1_BuiltData3492A99440DD64DBDFDD5A9AA774AD8A.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1_BuiltData.uasset'
+[2020.10.29-14.49.34:764][358]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1_BuiltData.uasset
+[2020.10.29-14.49.46:740][759]LogRenderer: Reallocating scene render targets to support 1240x900 NumSamples 1 (Frame:1).
+[2020.10.29-14.59.26:516][170]LogSlate: Took 0.000356 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.10.29-14.59.34:934][196]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/nivel1' took 0.020
+[2020.10.29-14.59.34:936][196]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Jugador/Enemigo/Enemigo] ([1] browsable assets)...
+[2020.10.29-14.59.34:961][196]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/StarterContent/Jugador/Enemigo/Enemigo.Enemigo]
+[2020.10.29-14.59.34:961][196]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Jugador/Enemigo/Enemigo]
+[2020.10.29-14.59.35:043][196]LogSavePackage: Save=66.66ms
+[2020.10.29-14.59.35:043][196]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/Enemigo_Auto1BC4C112042848F96E03B4E8730D4568B.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/Autosaves/Game/StarterContent/Jugador/Enemigo/Enemigo_Auto1.uasset'
+[2020.10.29-14.59.35:045][196]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/Autosaves/Game/StarterContent/Jugador/Enemigo/Enemigo_Auto1.uasset
+[2020.10.29-14.59.35:045][196]LogFileHelpers: Auto-saving content packages took 0.110
+[2020.10.29-15.02.53:379][ 71]LogTemp: Repeting last play command: Selected Viewport
+[2020.10.29-15.02.53:399][ 71]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.10.29-15.02.53:399][ 71]LogPlayLevel: [PlayLevel] Compiling Enemigo before play...
+[2020.10.29-15.02.53:518][ 71]LogPlayLevel: PlayLevel: Blueprint regeneration took 118 ms (1 blueprints)
+[2020.10.29-15.02.53:518][ 71]PIE: New page: PIE session: nivel1 (Oct 29, 2020, 5:02:53 PM)
+[2020.10.29-15.02.53:519][ 71]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_nivel1
+[2020.10.29-15.02.53:524][ 71]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005739s)
+[2020.10.29-15.02.53:525][ 71]LogAIModule: Creating AISystem for world nivel1
+[2020.10.29-15.02.53:526][ 71]LogPlayLevel: PIE: World Init took: (0.001201s)
+[2020.10.29-15.02.53:526][ 71]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/nivel1.nivel1 to /Game/UEDPIE_0_nivel1.nivel1 (0.007212s)
+[2020.10.29-15.02.53:574][ 71]LogInit: XAudio2 using 'PHL 273V5 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.10.29-15.02.53:587][ 71]LogInit: FAudioDevice initialized.
+[2020.10.29-15.02.53:623][ 71]LogLoad: Game class is 'miModoDeJuego_C'
+[2020.10.29-15.02.53:627][ 71]LogWorld: Bringing World /Game/UEDPIE_0_nivel1.nivel1 up for play (max tick rate 0) at 2020.10.29-16.02.53
+[2020.10.29-15.02.53:628][ 71]LogWorld: Bringing up level for play took: 0.002068
+[2020.10.29-15.02.53:630][ 71]PIE: Info Play in editor start time for /Game/UEDPIE_0_nivel1 0.996
+[2020.10.29-15.03.26:070][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Jugador/Enemigo/Enemigo" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Enemigo/Enemigo.uasset" SILENT=true
+[2020.10.29-15.03.26:121][496]LogSavePackage: Save=42.40ms
+[2020.10.29-15.03.26:121][496]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/EnemigoCD9F0282416C2F654C06EE9D147C87C5.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Enemigo/Enemigo.uasset'
+[2020.10.29-15.03.26:124][496]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Enemigo/Enemigo.uasset
+[2020.10.29-15.10.02:484][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/nivel1" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.29-15.10.02:571][989]LogSavePackage: Save=53.46ms
+[2020.10.29-15.10.02:571][989]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/nivel13C501F68490B68B632157AA5CB3CE6AD.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1.umap'
+[2020.10.29-15.10.02:574][989]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1.umap
+[2020.10.29-15.10.02:608][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/nivel1_BuiltData" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1_BuiltData.uasset" SILENT=true
+[2020.10.29-15.10.02:679][989]LogSavePackage: Save=55.32ms
+[2020.10.29-15.10.02:679][989]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/nivel1_BuiltData3F005971458F0BD8CAAAC3A89BBE0BDB.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1_BuiltData.uasset'
+[2020.10.29-15.10.02:681][989]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1_BuiltData.uasset
+[2020.10.29-15.10.03:994][143]LogTemp: Repeting last play command: Selected Viewport
+[2020.10.29-15.10.04:013][143]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.29-15.10.04:013][143]PIE: New page: PIE session: nivel1 (Oct 29, 2020, 5:10:04 PM)
+[2020.10.29-15.10.04:013][143]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_nivel1
+[2020.10.29-15.10.04:019][143]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005927s)
+[2020.10.29-15.10.04:020][143]LogAIModule: Creating AISystem for world nivel1
+[2020.10.29-15.10.04:020][143]LogPlayLevel: PIE: World Init took: (0.000982s)
+[2020.10.29-15.10.04:020][143]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/nivel1.nivel1 to /Game/UEDPIE_0_nivel1.nivel1 (0.007121s)
+[2020.10.29-15.10.04:073][143]LogInit: XAudio2 using 'PHL 273V5 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.10.29-15.10.04:091][143]LogInit: FAudioDevice initialized.
+[2020.10.29-15.10.04:123][143]LogLoad: Game class is 'miModoDeJuego_C'
+[2020.10.29-15.10.04:126][143]LogWorld: Bringing World /Game/UEDPIE_0_nivel1.nivel1 up for play (max tick rate 0) at 2020.10.29-16.10.04
+[2020.10.29-15.10.04:126][143]LogWorld: Bringing up level for play took: 0.001803
+[2020.10.29-15.10.04:128][143]PIE: Info Play in editor start time for /Game/UEDPIE_0_nivel1 -0.505
+[2020.10.29-15.15.46:212][242]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Jugador/Disparo" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Disparo.uasset" SILENT=true
+[2020.10.29-15.15.46:243][242]LogSavePackage: Save=25.39ms
+[2020.10.29-15.15.46:243][242]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/Disparo89AA3B8641463B3A80C51DB6281988CE.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Disparo.uasset'
+[2020.10.29-15.15.46:247][242]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Disparo.uasset
+[2020.10.29-15.15.46:769][303]BlueprintLog: New page: Compile Disparo
+[2020.10.29-15.17.38:110][765]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Jugador/Disparo" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Disparo.uasset" SILENT=true
+[2020.10.29-15.17.38:149][765]LogSavePackage: Save=22.94ms
+[2020.10.29-15.17.38:149][765]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/Disparo0C28C97B44D619B7AE6B5D99AFA88BCD.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Disparo.uasset'
+[2020.10.29-15.17.38:153][765]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Disparo.uasset
+[2020.10.29-15.20.07:804][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Jugador/Disparo" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Disparo.uasset" SILENT=true
+[2020.10.29-15.20.07:835][354]LogSavePackage: Save=22.29ms
+[2020.10.29-15.20.07:835][354]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/DisparoC7865AA94547EEFEAA6D1D886DE12F44.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Disparo.uasset'
+[2020.10.29-15.20.07:839][354]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Disparo.uasset
+[2020.10.29-15.20.14:442][669]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/nivel1" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/Autosaves/Game/nivel1_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2020.10.29-15.20.14:513][669]LogSavePackage: Save=56.84ms
+[2020.10.29-15.20.14:513][669]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/nivel1_Auto2FEA253D047F16E656EECA894F606C36A.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/Autosaves/Game/nivel1_Auto2.umap'
+[2020.10.29-15.20.14:515][669]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/Autosaves/Game/nivel1_Auto2.umap
+[2020.10.29-15.20.14:518][669]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/nivel1' took 0.097
+[2020.10.29-15.20.14:518][669]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.097
+[2020.10.29-15.23.14:874][317]BlueprintLog: New page: Compile Disparo
+[2020.10.29-15.23.15:175][317]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Jugador/Disparo" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Disparo.uasset" SILENT=true
+[2020.10.29-15.23.15:218][317]LogSavePackage: Save=27.15ms
+[2020.10.29-15.23.15:218][317]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/Disparo669799DE4703F33AAD06F0A805C7D9C2.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Disparo.uasset'
+[2020.10.29-15.23.15:222][317]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Disparo.uasset
+[2020.10.29-15.23.17:344][567]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Jugador/Disparo" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Disparo.uasset" SILENT=true
+[2020.10.29-15.23.17:373][567]LogSavePackage: Save=19.82ms
+[2020.10.29-15.23.17:373][567]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/Disparo089A76EE4B432BCAF5C2DD82F0C614E5.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Disparo.uasset'
+[2020.10.29-15.23.17:375][567]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Disparo.uasset
+[2020.10.29-15.23.20:383][916]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/nivel1" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.29-15.23.20:461][916]LogSavePackage: Save=52.34ms
+[2020.10.29-15.23.20:461][916]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/nivel1B61CBABD4BDD12D304036A869AEE4359.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1.umap'
+[2020.10.29-15.23.20:465][916]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1.umap
+[2020.10.29-15.23.20:499][916]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/nivel1_BuiltData" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1_BuiltData.uasset" SILENT=true
+[2020.10.29-15.23.20:581][916]LogSavePackage: Save=67.33ms
+[2020.10.29-15.23.20:581][916]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/nivel1_BuiltDataB67D60B0466E3577D1462F8CDE883DFC.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1_BuiltData.uasset'
+[2020.10.29-15.23.20:583][916]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1_BuiltData.uasset
+[2020.10.29-15.27.55:315][ 64]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Jugador/Jugador" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Jugador.uasset" SILENT=true
+[2020.10.29-15.27.55:403][ 64]LogSavePackage: Save=69.99ms
+[2020.10.29-15.27.55:403][ 64]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/Jugador8E27A47C4DFB4F28C5954B81CD4F8C3C.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Jugador.uasset'
+[2020.10.29-15.27.55:407][ 64]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Jugador.uasset
+[2020.10.29-15.32.49:688][ 80]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.10.29-15.34.13:595][801]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Jugador/Jugador" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Jugador.uasset" SILENT=true
+[2020.10.29-15.34.13:691][801]LogSavePackage: Save=79.58ms
+[2020.10.29-15.34.13:691][801]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/Jugador1E06299C4DFB3820F3C420898ECF7E58.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Jugador.uasset'
+[2020.10.29-15.34.13:695][801]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Jugador.uasset
+[2020.10.29-15.34.55:546][640]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Jugador/Jugador" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Jugador.uasset" SILENT=true
+[2020.10.29-15.34.55:644][640]LogSavePackage: Save=88.85ms
+[2020.10.29-15.34.55:644][640]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/JugadorFEA0CFA543A5D888D203A7A4B078E20B.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Jugador.uasset'
+[2020.10.29-15.34.55:648][640]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Jugador.uasset
+[2020.10.29-15.34.56:344][721]BlueprintLog: New page: Compile Jugador
+[2020.10.29-15.34.57:256][774]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Jugador/Jugador" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Jugador.uasset" SILENT=true
+[2020.10.29-15.34.57:752][774]LogSavePackage: Save=486.72ms
+[2020.10.29-15.34.57:753][774]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/JugadorE59D486543EA10454CED438C9F2B81C7.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Jugador.uasset'
+[2020.10.29-15.34.57:754][774]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Jugador.uasset
+[2020.10.29-15.35.00:129][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/nivel1" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.29-15.35.00:219][ 40]LogSavePackage: Save=53.17ms
+[2020.10.29-15.35.00:219][ 40]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/nivel1B2AB88B748E6CE243A75AF9E618020D8.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1.umap'
+[2020.10.29-15.35.00:223][ 40]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1.umap
+[2020.10.29-15.35.00:257][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/nivel1_BuiltData" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1_BuiltData.uasset" SILENT=true
+[2020.10.29-15.35.00:328][ 40]LogSavePackage: Save=54.17ms
+[2020.10.29-15.35.00:328][ 40]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/nivel1_BuiltDataF1A1AF4D42F3F11AD9D819A8F29E5453.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1_BuiltData.uasset'
+[2020.10.29-15.35.00:330][ 40]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1_BuiltData.uasset
+[2020.10.29-15.35.01:373][161]MapCheck: New page: Map Check
+[2020.10.29-15.35.01:400][161]Cmd: MAP REBUILD ALLVISIBLE
+[2020.10.29-15.35.01:400][161]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2020.10.29-15.35.01:485][161]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2020.10.29-15.35.01:492][161]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
+[2020.10.29-15.35.01:498][161]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Oak, compiling. 
+[2020.10.29-15.35.01:505][161]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy TexturaMagicaVoxel_Mat, compiling. 
+[2020.10.29-15.35.02:299][161]TextureStreamingBuild:Display: Compiling optional shaders took 0.819 seconds.
+[2020.10.29-15.35.02:302][161]LogLevel:Display: Export Material TexCoord Scales took 0.003 seconds.
+[2020.10.29-15.35.02:308][161]TextureStreamingBuild:Display: Build Texture Streaming took 0.005 seconds.
+[2020.10.29-15.35.02:326][161]LightingResults: New page: Lighting Build - Oct 29, 2020, 5:35:02 PM
+[2020.10.29-15.35.02:335][161]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.10.29-15.35.02:344][161]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.10.29-15.35.02:344][161]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.10.29-15.35.02:345][161]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.10.29-15.35.02:345][161]LogSwarmInterface: [TryOpenConnection] Local Process ID is 16092
+[2020.10.29-15.35.06:895][161]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2020.10.29-15.35.06:895][161]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.10.29-15.35.06:895][161]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.10.29-15.35.06:895][161]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.10.29-15.35.06:895][161]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.10.29-15.35.06:895][161]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.10.29-15.35.07:051][161]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2020.10.29-15.35.07:051][161]MapCheck: New page: nivel1 - Oct 29, 2020, 5:35:07 PM
+[2020.10.29-15.35.07:130][161]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 79.246ms to complete.
+[2020.10.29-15.35.07:154][161]LogEditorBuildUtils: Build time 0:05
+[2020.10.29-15.35.09:761][322]Job is a success!
+[2020.10.29-15.35.10:032][323]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2020.10.29-15.35.10:032][323]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2020.10.29-15.35.10:033][323]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2020.10.29-15.35.10:033][323]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2020.10.29-15.35.10:033][323]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2020.10.29-15.35.10:033][323]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
+[2020.10.29-15.35.10:081][323]Lightmass on ELBARTO: 2.13 sec total, 183 ms importing, 29 ms setup, 452 ms photons, 1.40 sec processing, 0 ms extra exporting [7/7 mappings]. Threads: 9.63 sec total, 2.12 sec processing.
+[2020.10.29-15.35.10:102][323]LogStaticLightingSystem: Illumination: 7.75 sec (179 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2020.10.29-15.35.10:102][323]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (0.0 MB streaming, 2.7 MB non-streaming), 4 textures
+[2020.10.29-15.35.10:102][323]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2020.10.29-15.35.10:901][323]DumpUnbuiltLightIteractions
+[2020.10.29-15.35.10:901][323]Lights with unbuilt interactions: 0
+[2020.10.29-15.35.10:901][323]
+[2020.10.29-15.35.10:901][323]Primitives with unbuilt interactions: 0
+[2020.10.29-15.35.10:948][324]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.10.29-15.35.10:948][324]MapCheck: New page: nivel1 - Oct 29, 2020, 5:35:10 PM
+[2020.10.29-15.35.11:025][324]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 77.831ms to complete.
+[2020.10.29-15.35.12:591][500]LogTemp: Repeting last play command: Selected Viewport
+[2020.10.29-15.35.12:614][500]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.29-15.35.12:614][500]PIE: New page: PIE session: nivel1 (Oct 29, 2020, 5:35:12 PM)
+[2020.10.29-15.35.12:614][500]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_nivel1
+[2020.10.29-15.35.12:619][500]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004978s)
+[2020.10.29-15.35.12:620][500]LogAIModule: Creating AISystem for world nivel1
+[2020.10.29-15.35.12:620][500]LogPlayLevel: PIE: World Init took: (0.001067s)
+[2020.10.29-15.35.12:620][500]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/nivel1.nivel1 to /Game/UEDPIE_0_nivel1.nivel1 (0.006252s)
+[2020.10.29-15.35.12:679][500]LogInit: XAudio2 using 'PHL 273V5 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.10.29-15.35.12:693][500]LogInit: FAudioDevice initialized.
+[2020.10.29-15.35.12:727][500]LogLoad: Game class is 'miModoDeJuego_C'
+[2020.10.29-15.35.12:730][500]LogWorld: Bringing World /Game/UEDPIE_0_nivel1.nivel1 up for play (max tick rate 0) at 2020.10.29-16.35.12
+[2020.10.29-15.35.12:731][500]LogWorld: Bringing up level for play took: 0.001850
+[2020.10.29-15.35.12:733][500]PIE: Info Play in editor start time for /Game/UEDPIE_0_nivel1 0.1
+[2020.10.29-15.35.26:842][120]LogNet: Browse: /Game/nivel1
+[2020.10.29-15.35.26:849][120]LogLoad: LoadMap: /Game/nivel1
+[2020.10.29-15.35.26:890][120]Cmd: MEM
+[2020.10.29-15.35.27:005][120]LogMemory: Platform Memory Stats for Windows
+[2020.10.29-15.35.27:005][120]LogMemory: Process Physical Memory: 1302.65 MB used, 1424.36 MB peak
+[2020.10.29-15.35.27:005][120]LogMemory: Process Virtual Memory: 2733.69 MB used, 2807.63 MB peak
+[2020.10.29-15.35.27:005][120]LogMemory: Physical Memory: 11582.45 MB used,  4768.68 MB free, 16351.14 MB total
+[2020.10.29-15.35.27:005][120]LogMemory: Virtual Memory: 8170.30 MB used,  4768.68 MB free, 134217728.00 MB total
+[2020.10.29-15.35.27:005][120]LogMemory: 
+[2020.10.29-15.35.27:005][120]Allocator Stats for TBB: (not implemented)
+[2020.10.29-15.35.27:005][120]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_nivel1
+[2020.10.29-15.35.27:011][120]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005487s)
+[2020.10.29-15.35.27:012][120]LogAIModule: Creating AISystem for world nivel1
+[2020.10.29-15.35.27:012][120]LogPlayLevel: PIE: World Init took: (0.001210s)
+[2020.10.29-15.35.27:012][120]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/nivel1.nivel1 to /Game/UEDPIE_0_nivel1.nivel1 (0.006967s)
+[2020.10.29-15.35.27:012][120]LogLoad: Game class is 'miModoDeJuego_C'
+[2020.10.29-15.35.27:015][120]LogWorld: Bringing World /Game/UEDPIE_0_nivel1.nivel1 up for play (max tick rate 0) at 2020.10.29-16.35.27
+[2020.10.29-15.35.27:016][120]LogWorld: Bringing up level for play took: 0.001873
+[2020.10.29-15.35.27:028][120]LogLoad: Took 0.179816 seconds to LoadMap(/Game/UEDPIE_0_nivel1)
+[2020.10.29-15.36.22:358][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Jugador/Jugador" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Jugador.uasset" SILENT=true
+[2020.10.29-15.36.22:445][615]LogSavePackage: Save=76.77ms
+[2020.10.29-15.36.22:445][615]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/JugadorF98C9CE64592C08FF51144B40F37893D.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Jugador.uasset'
+[2020.10.29-15.36.22:449][615]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Jugador.uasset
+[2020.10.29-15.38.37:042][249]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Jugador/Jugador" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Jugador.uasset" SILENT=true
+[2020.10.29-15.38.37:140][249]LogSavePackage: Save=86.75ms
+[2020.10.29-15.38.37:140][249]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/Jugador6B9524B4403A8E7DF93A0DBA38274369.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Jugador.uasset'
+[2020.10.29-15.38.37:144][249]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Jugador.uasset
+[2020.10.29-15.38.38:505][397]BlueprintLog: New page: Compile Jugador
+[2020.10.29-15.38.40:046][541]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Jugador/Jugador" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Jugador.uasset" SILENT=true
+[2020.10.29-15.38.40:144][541]LogSavePackage: Save=86.60ms
+[2020.10.29-15.38.40:144][541]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/JugadorD138B5894AB1D4DDC09BD199CBB4A76C.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Jugador.uasset'
+[2020.10.29-15.38.40:145][541]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Jugador.uasset
+[2020.10.29-15.38.42:267][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/nivel1" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.29-15.38.42:351][777]LogSavePackage: Save=56.40ms
+[2020.10.29-15.38.42:351][777]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/nivel10A7655AA4BD9D8F1E867838ACDCD6334.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1.umap'
+[2020.10.29-15.38.42:355][777]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1.umap
+[2020.10.29-15.38.42:389][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/nivel1_BuiltData" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1_BuiltData.uasset" SILENT=true
+[2020.10.29-15.38.42:459][777]LogSavePackage: Save=59.89ms
+[2020.10.29-15.38.42:459][777]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/nivel1_BuiltData8535C37B49BA11A0B93042B83C9958AB.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1_BuiltData.uasset'
+[2020.10.29-15.38.42:463][777]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1_BuiltData.uasset
+[2020.10.29-15.38.43:252][867]LogTemp: Repeting last play command: Selected Viewport
+[2020.10.29-15.38.43:279][867]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.29-15.38.43:279][867]PIE: New page: PIE session: nivel1 (Oct 29, 2020, 5:38:43 PM)
+[2020.10.29-15.38.43:279][867]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_nivel1
+[2020.10.29-15.38.43:285][867]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005781s)
+[2020.10.29-15.38.43:286][867]LogAIModule: Creating AISystem for world nivel1
+[2020.10.29-15.38.43:286][867]LogPlayLevel: PIE: World Init took: (0.001041s)
+[2020.10.29-15.38.43:286][867]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/nivel1.nivel1 to /Game/UEDPIE_0_nivel1.nivel1 (0.007068s)
+[2020.10.29-15.38.43:338][867]LogInit: XAudio2 using 'PHL 273V5 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.10.29-15.38.43:353][867]LogInit: FAudioDevice initialized.
+[2020.10.29-15.38.43:388][867]LogLoad: Game class is 'miModoDeJuego_C'
+[2020.10.29-15.38.43:391][867]LogWorld: Bringing World /Game/UEDPIE_0_nivel1.nivel1 up for play (max tick rate 0) at 2020.10.29-16.38.43
+[2020.10.29-15.38.43:391][867]LogWorld: Bringing up level for play took: 0.001739
+[2020.10.29-15.38.43:393][867]PIE: Info Play in editor start time for /Game/UEDPIE_0_nivel1 0.76
+[2020.10.29-15.39.05:169][429]LogEditorViewport: Clicking on Actor (LMB): Enemigo_C (Enemigo2)
+[2020.10.29-15.39.10:041][934]LogEditorViewport: Clicking on Actor (LMB): Enemigo_C (Enemigo3)
+[2020.10.29-15.39.11:675][ 95]LogTemp: Repeting last play command: Selected Viewport
+[2020.10.29-15.39.11:701][ 95]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.29-15.39.11:701][ 95]PIE: New page: PIE session: nivel1 (Oct 29, 2020, 5:39:11 PM)
+[2020.10.29-15.39.11:701][ 95]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_nivel1
+[2020.10.29-15.39.11:706][ 95]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005005s)
+[2020.10.29-15.39.11:707][ 95]LogAIModule: Creating AISystem for world nivel1
+[2020.10.29-15.39.11:707][ 95]LogPlayLevel: PIE: World Init took: (0.000891s)
+[2020.10.29-15.39.11:707][ 95]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/nivel1.nivel1 to /Game/UEDPIE_0_nivel1.nivel1 (0.006164s)
+[2020.10.29-15.39.11:780][ 95]LogInit: XAudio2 using 'PHL 273V5 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.10.29-15.39.11:795][ 95]LogInit: FAudioDevice initialized.
+[2020.10.29-15.39.11:829][ 95]LogLoad: Game class is 'miModoDeJuego_C'
+[2020.10.29-15.39.11:832][ 95]LogWorld: Bringing World /Game/UEDPIE_0_nivel1.nivel1 up for play (max tick rate 0) at 2020.10.29-16.39.11
+[2020.10.29-15.39.11:833][ 95]LogWorld: Bringing up level for play took: 0.001779
+[2020.10.29-15.39.11:835][ 95]PIE: Info Play in editor start time for /Game/UEDPIE_0_nivel1 -0.798
+[2020.10.29-15.39.26:214][764]LogEditorViewport: Clicking on Actor (LMB): Enemigo_C (Enemigo2)
+[2020.10.29-15.39.43:029][537]Cmd: SELECT NONE
+[2020.10.29-15.39.52:720][677]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/nivel1" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.29-15.39.52:803][677]LogSavePackage: Save=54.73ms
+[2020.10.29-15.39.52:803][677]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/nivel1474657AB4AD8729D393DD9891CAD8DB6.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1.umap'
+[2020.10.29-15.39.52:807][677]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1.umap
+[2020.10.29-15.39.52:840][677]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/nivel1_BuiltData" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1_BuiltData.uasset" SILENT=true
+[2020.10.29-15.39.52:904][677]LogSavePackage: Save=54.65ms
+[2020.10.29-15.39.52:904][677]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/nivel1_BuiltDataB877220F4A78CAB810D6CD99EBE9F6A1.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1_BuiltData.uasset'
+[2020.10.29-15.39.52:905][677]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1_BuiltData.uasset
+[2020.10.29-15.43.06:515][358]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0032 seconds. Added 1 classes and 2 folders.
+[2020.10.29-15.43.07:069][358]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.10.29-15.43.07:441][358]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_13:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.10.29-15.43.08:458][358]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0011 seconds. Added 1 classes and 0 folders.
+[2020.10.29-15.43.08:490][358]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.10.29-15.44.44:726][ 77]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Jugador/JugadorBlendSpace" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/JugadorBlendSpace.uasset" SILENT=true
+[2020.10.29-15.44.45:175][ 77]LogSavePackage: Save=446.69ms
+[2020.10.29-15.44.45:176][ 77]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/JugadorBlendSpace5A53305846C86A627D35CA9B674AC1BC.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/JugadorBlendSpace.uasset'
+[2020.10.29-15.44.45:180][ 77]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/JugadorBlendSpace.uasset
+[2020.10.29-15.45.43:190][737]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Jugador/JugadorBlendSpace" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/JugadorBlendSpace.uasset" SILENT=true
+[2020.10.29-15.45.43:225][737]LogSavePackage: Save=15.05ms
+[2020.10.29-15.45.43:225][737]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/JugadorBlendSpace933FC8F646A4771E3855739790A44BB4.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/JugadorBlendSpace.uasset'
+[2020.10.29-15.45.43:229][737]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/JugadorBlendSpace.uasset
+[2020.10.29-15.50.03:166][887]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Jugador/JugadorBlendSpace" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/JugadorBlendSpace.uasset" SILENT=true
+[2020.10.29-15.50.03:186][887]LogSavePackage: Save=10.56ms
+[2020.10.29-15.50.03:186][887]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/JugadorBlendSpace33B6C0914DD48BFA9E20ABB0FF86D0AA.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/JugadorBlendSpace.uasset'
+[2020.10.29-15.50.03:190][887]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/JugadorBlendSpace.uasset
+[2020.10.29-15.50.10:557][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Jugador/JugadorBlendSpace" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/JugadorBlendSpace.uasset" SILENT=true
+[2020.10.29-15.50.10:579][143]LogSavePackage: Save=10.55ms
+[2020.10.29-15.50.10:579][143]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/JugadorBlendSpace8AC5E49E4F5A20B6671974A21E6F6470.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/JugadorBlendSpace.uasset'
+[2020.10.29-15.50.10:581][143]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/JugadorBlendSpace.uasset
+[2020.10.29-15.52.28:958][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Jugador/JugadorBlendSpace" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/JugadorBlendSpace.uasset" SILENT=true
+[2020.10.29-15.52.28:986][169]LogSavePackage: Save=10.90ms
+[2020.10.29-15.52.28:986][169]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/JugadorBlendSpace436B36E0477E75CD087888BE0CCEA5DC.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/JugadorBlendSpace.uasset'
+[2020.10.29-15.52.28:990][169]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/JugadorBlendSpace.uasset
+[2020.10.29-15.54.35:216][442]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Jugador/JugadorBlendSpace" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/JugadorBlendSpace.uasset" SILENT=true
+[2020.10.29-15.54.35:239][442]LogSavePackage: Save=11.47ms
+[2020.10.29-15.54.35:239][442]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/JugadorBlendSpaceA0C6456A4F2D9966E8BA12A66A70C2EB.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/JugadorBlendSpace.uasset'
+[2020.10.29-15.54.35:241][442]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/JugadorBlendSpace.uasset
+[2020.10.29-15.54.50:092][ 24]LogContentBrowser:Verbose: The majority of assets in the view are of type: Skeleton
+[2020.10.29-15.55.33:752][529]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2020.10.29-15.55.34:068][529]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_19:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2020.10.29-16.00.03:802][ 54]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Jugador/JugadorAnimBlueprint" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/JugadorAnimBlueprint.uasset" SILENT=true
+[2020.10.29-16.00.03:838][ 54]LogSavePackage: Save=32.97ms
+[2020.10.29-16.00.03:838][ 54]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/JugadorAnimBlueprintB389267041405DEEC691ECB89FD4D2F0.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/JugadorAnimBlueprint.uasset'
+[2020.10.29-16.00.03:841][ 54]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/JugadorAnimBlueprint.uasset
+[2020.10.29-16.04.11:124][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Jugador/JugadorAnimBlueprint" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/JugadorAnimBlueprint.uasset" SILENT=true
+[2020.10.29-16.04.11:178][ 11]LogSavePackage: Save=36.32ms
+[2020.10.29-16.04.11:178][ 11]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/JugadorAnimBlueprintF39819AD4C0604F5B2AA77878B5422B0.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/JugadorAnimBlueprint.uasset'
+[2020.10.29-16.04.11:182][ 11]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/JugadorAnimBlueprint.uasset
+[2020.10.29-16.06.03:693][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Jugador/JugadorAnimBlueprint" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/JugadorAnimBlueprint.uasset" SILENT=true
+[2020.10.29-16.06.03:743][658]LogSavePackage: Save=39.26ms
+[2020.10.29-16.06.03:743][658]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/JugadorAnimBlueprint48FDF56B45330C5B4463AFA0775A6D9D.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/JugadorAnimBlueprint.uasset'
+[2020.10.29-16.06.03:746][658]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/JugadorAnimBlueprint.uasset
+[2020.10.29-16.06.04:552][751]BlueprintLog: New page: Compile JugadorAnimBlueprint
+[2020.10.29-16.06.05:031][751]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	JugadorAnimBlueprint_C /Engine/Transient.World_17:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.JugadorAnimBlueprint_C_1
+	Function /Game/StarterContent/Jugador/JugadorAnimBlueprint.JugadorAnimBlueprint_C:ExecuteUbergraph_JugadorAnimBlueprint:008F
+[2020.10.29-16.06.05:031][751]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	JugadorAnimBlueprint_C /Engine/Transient.World_17:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.JugadorAnimBlueprint_C_1
+	Function /Game/StarterContent/Jugador/JugadorAnimBlueprint.JugadorAnimBlueprint_C:ExecuteUbergraph_JugadorAnimBlueprint:011F
+[2020.10.29-16.06.05:031][751]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	JugadorAnimBlueprint_C /Engine/Transient.World_17:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.JugadorAnimBlueprint_C_1
+	Function /Game/StarterContent/Jugador/JugadorAnimBlueprint.JugadorAnimBlueprint_C:ExecuteUbergraph_JugadorAnimBlueprint:0151
+[2020.10.29-16.06.05:041][751]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	JugadorAnimBlueprint_C /Engine/Transient.World_19:PersistentLevel.Actor_1.DebugSkelMeshComponent_2.JugadorAnimBlueprint_C_2
+	Function /Game/StarterContent/Jugador/JugadorAnimBlueprint.JugadorAnimBlueprint_C:ExecuteUbergraph_JugadorAnimBlueprint:008F
+[2020.10.29-16.06.05:041][751]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	JugadorAnimBlueprint_C /Engine/Transient.World_19:PersistentLevel.Actor_1.DebugSkelMeshComponent_2.JugadorAnimBlueprint_C_2
+	Function /Game/StarterContent/Jugador/JugadorAnimBlueprint.JugadorAnimBlueprint_C:ExecuteUbergraph_JugadorAnimBlueprint:011F
+[2020.10.29-16.06.05:041][751]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	JugadorAnimBlueprint_C /Engine/Transient.World_19:PersistentLevel.Actor_1.DebugSkelMeshComponent_2.JugadorAnimBlueprint_C_2
+	Function /Game/StarterContent/Jugador/JugadorAnimBlueprint.JugadorAnimBlueprint_C:ExecuteUbergraph_JugadorAnimBlueprint:0151
+[2020.10.29-16.06.05:209][751]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	JugadorAnimBlueprint_C /Engine/Transient.World_19:PersistentLevel.Actor_1.DebugSkelMeshComponent_2.JugadorAnimBlueprint_C_2
+	Function /Game/StarterContent/Jugador/JugadorAnimBlueprint.JugadorAnimBlueprint_C:ExecuteUbergraph_JugadorAnimBlueprint:008F
+[2020.10.29-16.06.05:209][751]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	JugadorAnimBlueprint_C /Engine/Transient.World_19:PersistentLevel.Actor_1.DebugSkelMeshComponent_2.JugadorAnimBlueprint_C_2
+	Function /Game/StarterContent/Jugador/JugadorAnimBlueprint.JugadorAnimBlueprint_C:ExecuteUbergraph_JugadorAnimBlueprint:011F
+[2020.10.29-16.06.05:209][751]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	JugadorAnimBlueprint_C /Engine/Transient.World_19:PersistentLevel.Actor_1.DebugSkelMeshComponent_2.JugadorAnimBlueprint_C_2
+	Function /Game/StarterContent/Jugador/JugadorAnimBlueprint.JugadorAnimBlueprint_C:ExecuteUbergraph_JugadorAnimBlueprint:0151
+[2020.10.29-16.06.05:242][752]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	JugadorAnimBlueprint_C /Engine/Transient.World_19:PersistentLevel.Actor_1.DebugSkelMeshComponent_2.JugadorAnimBlueprint_C_2
+	Function /Game/StarterContent/Jugador/JugadorAnimBlueprint.JugadorAnimBlueprint_C:ExecuteUbergraph_JugadorAnimBlueprint:008F
+[2020.10.29-16.06.05:242][752]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	JugadorAnimBlueprint_C /Engine/Transient.World_19:PersistentLevel.Actor_1.DebugSkelMeshComponent_2.JugadorAnimBlueprint_C_2
+	Function /Game/StarterContent/Jugador/JugadorAnimBlueprint.JugadorAnimBlueprint_C:ExecuteUbergraph_JugadorAnimBlueprint:011F
+[2020.10.29-16.06.05:242][752]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	JugadorAnimBlueprint_C /Engine/Transient.World_19:PersistentLevel.Actor_1.DebugSkelMeshComponent_2.JugadorAnimBlueprint_C_2
+	Function /Game/StarterContent/Jugador/JugadorAnimBlueprint.JugadorAnimBlueprint_C:ExecuteUbergraph_JugadorAnimBlueprint:0151
+[2020.10.29-16.06.05:255][753]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	JugadorAnimBlueprint_C /Engine/Transient.World_19:PersistentLevel.Actor_1.DebugSkelMeshComponent_2.JugadorAnimBlueprint_C_2
+	Function /Game/StarterContent/Jugador/JugadorAnimBlueprint.JugadorAnimBlueprint_C:ExecuteUbergraph_JugadorAnimBlueprint:008F
+[2020.10.29-16.06.05:255][753]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	JugadorAnimBlueprint_C /Engine/Transient.World_19:PersistentLevel.Actor_1.DebugSkelMeshComponent_2.JugadorAnimBlueprint_C_2
+	Function /Game/StarterContent/Jugador/JugadorAnimBlueprint.JugadorAnimBlueprint_C:ExecuteUbergraph_JugadorAnimBlueprint:011F
+[2020.10.29-16.06.05:255][753]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	JugadorAnimBlueprint_C /Engine/Transient.World_19:PersistentLevel.Actor_1.DebugSkelMeshComponent_2.JugadorAnimBlueprint_C_2
+	Function /Game/StarterContent/Jugador/JugadorAnimBlueprint.JugadorAnimBlueprint_C:ExecuteUbergraph_JugadorAnimBlueprint:0151
+[2020.10.29-16.06.05:263][754]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	JugadorAnimBlueprint_C /Engine/Transient.World_19:PersistentLevel.Actor_1.DebugSkelMeshComponent_2.JugadorAnimBlueprint_C_2
+	Function /Game/StarterContent/Jugador/JugadorAnimBlueprint.JugadorAnimBlueprint_C:ExecuteUbergraph_JugadorAnimBlueprint:008F
+[2020.10.29-16.06.05:263][754]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	JugadorAnimBlueprint_C /Engine/Transient.World_19:PersistentLevel.Actor_1.DebugSkelMeshComponent_2.JugadorAnimBlueprint_C_2
+	Function /Game/StarterContent/Jugador/JugadorAnimBlueprint.JugadorAnimBlueprint_C:ExecuteUbergraph_JugadorAnimBlueprint:011F
+[2020.10.29-16.06.05:263][754]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	JugadorAnimBlueprint_C /Engine/Transient.World_19:PersistentLevel.Actor_1.DebugSkelMeshComponent_2.JugadorAnimBlueprint_C_2
+	Function /Game/StarterContent/Jugador/JugadorAnimBlueprint.JugadorAnimBlueprint_C:ExecuteUbergraph_JugadorAnimBlueprint:0151
+[2020.10.29-16.06.05:270][755]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	JugadorAnimBlueprint_C /Engine/Transient.World_19:PersistentLevel.Actor_1.DebugSkelMeshComponent_2.JugadorAnimBlueprint_C_2
+	Function /Game/StarterContent/Jugador/JugadorAnimBlueprint.JugadorAnimBlueprint_C:ExecuteUbergraph_JugadorAnimBlueprint:008F
+[2020.10.29-16.06.05:271][755]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	JugadorAnimBlueprint_C /Engine/Transient.World_19:PersistentLevel.Actor_1.DebugSkelMeshComponent_2.JugadorAnimBlueprint_C_2
+	Function /Game/StarterContent/Jugador/JugadorAnimBlueprint.JugadorAnimBlueprint_C:ExecuteUbergraph_JugadorAnimBlueprint:011F
+[2020.10.29-16.06.28:218][301]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.10.29-16.06.35:861][161]BlueprintLog: New page: Compile Jugador
+[2020.10.29-16.06.36:281][161]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Jugador/Jugador" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Jugador.uasset" SILENT=true
+[2020.10.29-16.06.36:391][161]LogSavePackage: Save=89.73ms
+[2020.10.29-16.06.36:391][161]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/Jugador3BEB363147140800597016AAEB393AE1.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Jugador.uasset'
+[2020.10.29-16.06.36:395][161]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Jugador.uasset
+[2020.10.29-16.06.37:061][235]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Jugador/Jugador" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Jugador.uasset" SILENT=true
+[2020.10.29-16.06.37:154][235]LogSavePackage: Save=82.10ms
+[2020.10.29-16.06.37:154][235]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/Jugador83AAEC164D5DE8BF29E23A9595717A3D.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Jugador.uasset'
+[2020.10.29-16.06.37:156][235]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Jugador.uasset
+[2020.10.29-16.07.02:974][425]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/nivel1" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/Autosaves/Game/nivel1_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2020.10.29-16.07.03:091][425]LogSavePackage: Save=87.42ms
+[2020.10.29-16.07.03:091][425]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/nivel1_Auto3E9D5F20D46CA1D6921F37798202E307B.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/Autosaves/Game/nivel1_Auto3.umap'
+[2020.10.29-16.07.03:093][425]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/Autosaves/Game/nivel1_Auto3.umap
+[2020.10.29-16.07.03:096][425]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/nivel1' took 0.192
+[2020.10.29-16.07.03:096][425]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.192
+[2020.10.29-16.09.58:361][ 71]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/nivel1" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.29-16.09.58:446][ 71]LogSavePackage: Save=54.01ms
+[2020.10.29-16.09.58:446][ 71]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/nivel1F9F248CF4B77B6E543D5F1B292A24FAD.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1.umap'
+[2020.10.29-16.09.58:450][ 71]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1.umap
+[2020.10.29-16.09.58:485][ 71]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/nivel1_BuiltData" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1_BuiltData.uasset" SILENT=true
+[2020.10.29-16.09.58:559][ 71]LogSavePackage: Save=54.91ms
+[2020.10.29-16.09.58:559][ 71]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/nivel1_BuiltData20E9D69649DCF8815A6AEF8BAC19F0AF.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1_BuiltData.uasset'
+[2020.10.29-16.09.58:560][ 71]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1_BuiltData.uasset
+[2020.10.29-16.09.59:949][228]MapCheck: New page: Map Check
+[2020.10.29-16.09.59:966][228]Cmd: MAP REBUILD ALLVISIBLE
+[2020.10.29-16.09.59:966][228]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2020.10.29-16.10.00:062][228]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2020.10.29-16.10.00:070][228]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_3, compiling. 
+[2020.10.29-16.10.00:078][228]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Oak, compiling. 
+[2020.10.29-16.10.00:087][228]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy TexturaMagicaVoxel_Mat, compiling. 
+[2020.10.29-16.10.00:906][228]TextureStreamingBuild:Display: Compiling optional shaders took 0.850 seconds.
+[2020.10.29-16.10.00:911][228]LogLevel:Display: Export Material TexCoord Scales took 0.005 seconds.
+[2020.10.29-16.10.00:920][228]TextureStreamingBuild:Display: Build Texture Streaming took 0.009 seconds.
+[2020.10.29-16.10.00:941][228]LightingResults: New page: Lighting Build - Oct 29, 2020, 6:10:00 PM
+[2020.10.29-16.10.00:951][228]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.10.29-16.10.00:955][228]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.10.29-16.10.00:955][228]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.10.29-16.10.00:957][228]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.10.29-16.10.00:957][228]LogSwarmInterface: [TryOpenConnection] Local Process ID is 16092
+[2020.10.29-16.10.05:466][228]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2020.10.29-16.10.05:466][228]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.10.29-16.10.05:466][228]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.10.29-16.10.05:466][228]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.10.29-16.10.05:466][228]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.10.29-16.10.05:466][228]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.10.29-16.10.05:635][228]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2020.10.29-16.10.05:635][228]MapCheck: New page: nivel1 - Oct 29, 2020, 6:10:05 PM
+[2020.10.29-16.10.05:720][228]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 84.814ms to complete.
+[2020.10.29-16.10.05:743][228]LogEditorBuildUtils: Build time 0:05
+[2020.10.29-16.10.08:275][376]Job is a success!
+[2020.10.29-16.10.08:558][377]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2020.10.29-16.10.08:558][377]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2020.10.29-16.10.08:558][377]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2020.10.29-16.10.08:558][377]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
+[2020.10.29-16.10.08:558][377]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2020.10.29-16.10.08:558][377]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2020.10.29-16.10.08:614][377]Lightmass on ELBARTO: 2.07 sec total, 212 ms importing, 27 ms setup, 488 ms photons, 1.26 sec processing, 0 ms extra exporting [7/7 mappings]. Threads: 8.65 sec total, 1.88 sec processing.
+[2020.10.29-16.10.08:636][377]LogStaticLightingSystem: Illumination: 7.67 sec (183 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2020.10.29-16.10.08:636][377]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (0.0 MB streaming, 2.7 MB non-streaming), 4 textures
+[2020.10.29-16.10.08:636][377]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2020.10.29-16.10.09:473][377]DumpUnbuiltLightIteractions
+[2020.10.29-16.10.09:473][377]Lights with unbuilt interactions: 0
+[2020.10.29-16.10.09:473][377]
+[2020.10.29-16.10.09:473][377]Primitives with unbuilt interactions: 0
+[2020.10.29-16.10.09:527][378]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.10.29-16.10.09:527][378]MapCheck: New page: nivel1 - Oct 29, 2020, 6:10:09 PM
+[2020.10.29-16.10.09:608][378]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 81.047ms to complete.
+[2020.10.29-16.10.18:055][349]LogTemp: Repeting last play command: Selected Viewport
+[2020.10.29-16.10.18:083][349]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.29-16.10.18:083][349]PIE: New page: PIE session: nivel1 (Oct 29, 2020, 6:10:18 PM)
+[2020.10.29-16.10.18:083][349]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_nivel1
+[2020.10.29-16.10.18:089][349]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006132s)
+[2020.10.29-16.10.18:090][349]LogAIModule: Creating AISystem for world nivel1
+[2020.10.29-16.10.18:090][349]LogPlayLevel: PIE: World Init took: (0.000995s)
+[2020.10.29-16.10.18:090][349]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/nivel1.nivel1 to /Game/UEDPIE_0_nivel1.nivel1 (0.007371s)
+[2020.10.29-16.10.18:147][349]LogInit: XAudio2 using 'PHL 273V5 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.10.29-16.10.18:162][349]LogInit: FAudioDevice initialized.
+[2020.10.29-16.10.18:196][349]LogLoad: Game class is 'miModoDeJuego_C'
+[2020.10.29-16.10.18:199][349]LogWorld: Bringing World /Game/UEDPIE_0_nivel1.nivel1 up for play (max tick rate 0) at 2020.10.29-17.10.18
+[2020.10.29-16.10.18:200][349]LogWorld: Bringing up level for play took: 0.002064
+[2020.10.29-16.10.18:203][349]PIE: Info Play in editor start time for /Game/UEDPIE_0_nivel1 -0.43
+[2020.10.29-16.11.12:375][679]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Jugador/Jugador" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Jugador.uasset" SILENT=true
+[2020.10.29-16.11.12:465][679]LogSavePackage: Save=79.55ms
+[2020.10.29-16.11.12:465][679]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/Jugador91AC8C314331F0E31DD26F92FB2D6B43.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Jugador.uasset'
+[2020.10.29-16.11.12:467][679]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/Jugador.uasset
+[2020.10.29-16.11.40:544][980]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/nivel1" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.29-16.11.40:637][980]LogSavePackage: Save=55.30ms
+[2020.10.29-16.11.40:637][980]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/nivel195AF8EB94340DE734989159C017B0E00.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1.umap'
+[2020.10.29-16.11.40:641][980]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1.umap
+[2020.10.29-16.11.40:677][980]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/nivel1_BuiltData" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1_BuiltData.uasset" SILENT=true
+[2020.10.29-16.11.40:744][980]LogSavePackage: Save=55.89ms
+[2020.10.29-16.11.40:744][980]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/nivel1_BuiltData8574A4EC4494A390B5CE26AF80B5DB04.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1_BuiltData.uasset'
+[2020.10.29-16.11.40:748][980]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1_BuiltData.uasset
+[2020.10.29-16.12.08:030][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Jugador/JugadorBlendSpace" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/JugadorBlendSpace.uasset" SILENT=true
+[2020.10.29-16.12.08:060][ 59]LogSavePackage: Save=10.96ms
+[2020.10.29-16.12.08:060][ 59]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/JugadorBlendSpace20FE6C3E47C64B863A15FEA1296C10A7.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/JugadorBlendSpace.uasset'
+[2020.10.29-16.12.08:061][ 59]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/JugadorBlendSpace.uasset
+[2020.10.29-16.12.10:298][314]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Jugador/JugadorAnimBlueprint" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/JugadorAnimBlueprint.uasset" SILENT=true
+[2020.10.29-16.12.10:358][314]LogSavePackage: Save=41.97ms
+[2020.10.29-16.12.10:358][314]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/JugadorAnimBlueprint72AD84254F2CFB5E9DD2769144D01A86.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/JugadorAnimBlueprint.uasset'
+[2020.10.29-16.12.10:360][314]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/JugadorAnimBlueprint.uasset
+[2020.10.29-16.20.12:606][772]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.10.29-16.20.24:347][ 33]LogTemp: Repeting last play command: Selected Viewport
+[2020.10.29-16.20.24:388][ 33]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.29-16.20.24:388][ 33]PIE: New page: PIE session: nivel1 (Oct 29, 2020, 6:20:24 PM)
+[2020.10.29-16.20.24:388][ 33]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_nivel1
+[2020.10.29-16.20.24:396][ 33]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007719s)
+[2020.10.29-16.20.24:397][ 33]LogAIModule: Creating AISystem for world nivel1
+[2020.10.29-16.20.24:397][ 33]LogPlayLevel: PIE: World Init took: (0.001109s)
+[2020.10.29-16.20.24:397][ 33]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/nivel1.nivel1 to /Game/UEDPIE_0_nivel1.nivel1 (0.009124s)
+[2020.10.29-16.20.24:470][ 33]LogInit: XAudio2 using 'PHL 273V5 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.10.29-16.20.24:491][ 33]LogInit: FAudioDevice initialized.
+[2020.10.29-16.20.24:529][ 33]LogLoad: Game class is 'miModoDeJuego_C'
+[2020.10.29-16.20.24:532][ 33]LogWorld: Bringing World /Game/UEDPIE_0_nivel1.nivel1 up for play (max tick rate 0) at 2020.10.29-17.20.24
+[2020.10.29-16.20.24:532][ 33]LogWorld: Bringing up level for play took: 0.001914
+[2020.10.29-16.20.24:534][ 33]PIE: Info Play in editor start time for /Game/UEDPIE_0_nivel1 -0.099
+[2020.10.29-16.21.55:375][158]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Jugador/JugadorAnimBlueprint" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/JugadorAnimBlueprint.uasset" SILENT=true
+[2020.10.29-16.21.55:443][158]LogSavePackage: Save=42.47ms
+[2020.10.29-16.21.55:443][158]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/JugadorAnimBlueprint969D49F94BF29FD252EFE4A1F2668483.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/JugadorAnimBlueprint.uasset'
+[2020.10.29-16.21.55:447][158]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/StarterContent/Jugador/JugadorAnimBlueprint.uasset
+[2020.10.29-16.21.55:906][211]BlueprintLog: New page: Compile JugadorAnimBlueprint
+[2020.10.29-16.21.55:921][211]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	JugadorAnimBlueprint_C /Engine/Transient.World_17:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.JugadorAnimBlueprint_C_0
+	Function /Game/StarterContent/Jugador/JugadorAnimBlueprint.JugadorAnimBlueprint_C:ExecuteUbergraph_JugadorAnimBlueprint:008F
+[2020.10.29-16.21.55:921][211]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	JugadorAnimBlueprint_C /Engine/Transient.World_17:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.JugadorAnimBlueprint_C_0
+	Function /Game/StarterContent/Jugador/JugadorAnimBlueprint.JugadorAnimBlueprint_C:ExecuteUbergraph_JugadorAnimBlueprint:011F
+[2020.10.29-16.21.55:921][211]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	JugadorAnimBlueprint_C /Engine/Transient.World_17:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.JugadorAnimBlueprint_C_0
+	Function /Game/StarterContent/Jugador/JugadorAnimBlueprint.JugadorAnimBlueprint_C:ExecuteUbergraph_JugadorAnimBlueprint:0151
+[2020.10.29-16.21.55:922][211]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	JugadorAnimBlueprint_C /Engine/Transient.World_19:PersistentLevel.Actor_1.DebugSkelMeshComponent_2.JugadorAnimBlueprint_C_1
+	Function /Game/StarterContent/Jugador/JugadorAnimBlueprint.JugadorAnimBlueprint_C:ExecuteUbergraph_JugadorAnimBlueprint:008F
+[2020.10.29-16.21.55:922][211]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	JugadorAnimBlueprint_C /Engine/Transient.World_19:PersistentLevel.Actor_1.DebugSkelMeshComponent_2.JugadorAnimBlueprint_C_1
+	Function /Game/StarterContent/Jugador/JugadorAnimBlueprint.JugadorAnimBlueprint_C:ExecuteUbergraph_JugadorAnimBlueprint:011F
+[2020.10.29-16.21.55:922][211]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	JugadorAnimBlueprint_C /Engine/Transient.World_19:PersistentLevel.Actor_1.DebugSkelMeshComponent_2.JugadorAnimBlueprint_C_1
+	Function /Game/StarterContent/Jugador/JugadorAnimBlueprint.JugadorAnimBlueprint_C:ExecuteUbergraph_JugadorAnimBlueprint:0151
+[2020.10.29-16.21.56:035][211]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	JugadorAnimBlueprint_C /Engine/Transient.World_19:PersistentLevel.Actor_1.DebugSkelMeshComponent_2.JugadorAnimBlueprint_C_1
+	Function /Game/StarterContent/Jugador/JugadorAnimBlueprint.JugadorAnimBlueprint_C:ExecuteUbergraph_JugadorAnimBlueprint:008F
+[2020.10.29-16.21.56:035][211]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	JugadorAnimBlueprint_C /Engine/Transient.World_19:PersistentLevel.Actor_1.DebugSkelMeshComponent_2.JugadorAnimBlueprint_C_1
+	Function /Game/StarterContent/Jugador/JugadorAnimBlueprint.JugadorAnimBlueprint_C:ExecuteUbergraph_JugadorAnimBlueprint:011F
+[2020.10.29-16.21.56:035][211]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	JugadorAnimBlueprint_C /Engine/Transient.World_19:PersistentLevel.Actor_1.DebugSkelMeshComponent_2.JugadorAnimBlueprint_C_1
+	Function /Game/StarterContent/Jugador/JugadorAnimBlueprint.JugadorAnimBlueprint_C:ExecuteUbergraph_JugadorAnimBlueprint:0151
+[2020.10.29-16.21.56:044][211]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	JugadorAnimBlueprint_C /Engine/Transient.World_19:PersistentLevel.Actor_1.DebugSkelMeshComponent_2.JugadorAnimBlueprint_C_1
+	Function /Game/StarterContent/Jugador/JugadorAnimBlueprint.JugadorAnimBlueprint_C:ExecuteUbergraph_JugadorAnimBlueprint:008F
+[2020.10.29-16.21.56:044][211]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	JugadorAnimBlueprint_C /Engine/Transient.World_19:PersistentLevel.Actor_1.DebugSkelMeshComponent_2.JugadorAnimBlueprint_C_1
+	Function /Game/StarterContent/Jugador/JugadorAnimBlueprint.JugadorAnimBlueprint_C:ExecuteUbergraph_JugadorAnimBlueprint:011F
+[2020.10.29-16.21.56:044][211]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	JugadorAnimBlueprint_C /Engine/Transient.World_19:PersistentLevel.Actor_1.DebugSkelMeshComponent_2.JugadorAnimBlueprint_C_1
+	Function /Game/StarterContent/Jugador/JugadorAnimBlueprint.JugadorAnimBlueprint_C:ExecuteUbergraph_JugadorAnimBlueprint:0151
+[2020.10.29-16.21.56:073][212]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	JugadorAnimBlueprint_C /Engine/Transient.World_19:PersistentLevel.Actor_1.DebugSkelMeshComponent_2.JugadorAnimBlueprint_C_1
+	Function /Game/StarterContent/Jugador/JugadorAnimBlueprint.JugadorAnimBlueprint_C:ExecuteUbergraph_JugadorAnimBlueprint:008F
+[2020.10.29-16.21.56:073][212]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	JugadorAnimBlueprint_C /Engine/Transient.World_19:PersistentLevel.Actor_1.DebugSkelMeshComponent_2.JugadorAnimBlueprint_C_1
+	Function /Game/StarterContent/Jugador/JugadorAnimBlueprint.JugadorAnimBlueprint_C:ExecuteUbergraph_JugadorAnimBlueprint:011F
+[2020.10.29-16.21.56:074][212]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	JugadorAnimBlueprint_C /Engine/Transient.World_19:PersistentLevel.Actor_1.DebugSkelMeshComponent_2.JugadorAnimBlueprint_C_1
+	Function /Game/StarterContent/Jugador/JugadorAnimBlueprint.JugadorAnimBlueprint_C:ExecuteUbergraph_JugadorAnimBlueprint:0151
+[2020.10.29-16.21.56:084][213]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	JugadorAnimBlueprint_C /Engine/Transient.World_19:PersistentLevel.Actor_1.DebugSkelMeshComponent_2.JugadorAnimBlueprint_C_1
+	Function /Game/StarterContent/Jugador/JugadorAnimBlueprint.JugadorAnimBlueprint_C:ExecuteUbergraph_JugadorAnimBlueprint:008F
+[2020.10.29-16.21.56:084][213]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	JugadorAnimBlueprint_C /Engine/Transient.World_19:PersistentLevel.Actor_1.DebugSkelMeshComponent_2.JugadorAnimBlueprint_C_1
+	Function /Game/StarterContent/Jugador/JugadorAnimBlueprint.JugadorAnimBlueprint_C:ExecuteUbergraph_JugadorAnimBlueprint:011F
+[2020.10.29-16.21.58:431][470]LogTemp: Repeting last play command: Selected Viewport
+[2020.10.29-16.21.58:462][470]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.29-16.21.58:462][470]PIE: New page: PIE session: nivel1 (Oct 29, 2020, 6:21:58 PM)
+[2020.10.29-16.21.58:462][470]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_nivel1
+[2020.10.29-16.21.58:468][470]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005841s)
+[2020.10.29-16.21.58:469][470]LogAIModule: Creating AISystem for world nivel1
+[2020.10.29-16.21.58:469][470]LogPlayLevel: PIE: World Init took: (0.000913s)
+[2020.10.29-16.21.58:469][470]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/nivel1.nivel1 to /Game/UEDPIE_0_nivel1.nivel1 (0.006965s)
+[2020.10.29-16.21.58:522][470]LogInit: XAudio2 using 'PHL 273V5 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.10.29-16.21.58:537][470]LogInit: FAudioDevice initialized.
+[2020.10.29-16.21.58:574][470]LogLoad: Game class is 'miModoDeJuego_C'
+[2020.10.29-16.21.58:578][470]LogWorld: Bringing World /Game/UEDPIE_0_nivel1.nivel1 up for play (max tick rate 0) at 2020.10.29-17.21.58
+[2020.10.29-16.21.58:579][470]LogWorld: Bringing up level for play took: 0.002236
+[2020.10.29-16.21.58:581][470]PIE: Info Play in editor start time for /Game/UEDPIE_0_nivel1 -0.052
+[2020.10.29-16.39.15:533][897]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/nivel1" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.29-16.39.15:634][897]LogSavePackage: Save=56.26ms
+[2020.10.29-16.39.15:634][897]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/nivel171BBC19C454A82F37867378773299DFF.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1.umap'
+[2020.10.29-16.39.15:637][897]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1.umap
+[2020.10.29-16.39.15:671][897]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/nivel1_BuiltData" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1_BuiltData.uasset" SILENT=true
+[2020.10.29-16.39.15:742][897]LogSavePackage: Save=53.29ms
+[2020.10.29-16.39.15:742][897]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/nivel1_BuiltData2083C4F948AA713AE532F7AEAEC052F3.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1_BuiltData.uasset'
+[2020.10.29-16.39.15:744][897]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/nivel1_BuiltData.uasset
+[2020.10.29-16.39.18:479][139]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.10.29-16.39.18:639][139]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.10.29-16.39.19:706][140]Cmd: QUIT_EDITOR
+[2020.10.29-16.39.20:700][140]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2020.10.29-16.39.20:761][140]LogExit: Preparing to exit.
+[2020.10.29-16.39.22:070][140]LogExit: Editor shut down
+[2020.10.29-16.39.22:101][140]LogExit: Transaction tracking system shut down
+[2020.10.29-16.39.23:763][140]LogObj: Freed 0b from 0 cluster array pools.
+[2020.10.29-16.39.23:764][140]LogExit: Object subsystem successfully closed.
+[2020.10.29-16.39.23:933][140]LogD3D11RHI: Shutdown
+[2020.10.29-16.39.23:933][140]LogD3D11RHI: CleanupD3DDevice
+[2020.10.29-16.39.24:099][140]LogD3D11RHI: ~FD3D11DynamicRHI
+[2020.10.29-16.39.24:828][140]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (540)
+[2020.10.29-16.39.24:828][140]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (538)
+[2020.10.29-16.39.24:828][140]LogModuleManager: Shutting down and abandoning module SkeletonEditor (536)
+[2020.10.29-16.39.24:828][140]LogModuleManager: Shutting down and abandoning module AnimationEditor (534)
+[2020.10.29-16.39.24:828][140]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (532)
+[2020.10.29-16.39.24:828][140]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (530)
+[2020.10.29-16.39.24:840][140]LogModuleManager: Shutting down and abandoning module BlueprintGraph (528)
+[2020.10.29-16.39.24:840][140]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (526)
+[2020.10.29-16.39.24:902][140]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2020.10.29-16.39.24:902][140]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2020.10.29-16.39.24:902][140]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2020.10.29-16.39.24:902][140]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2020.10.29-16.39.24:920][140]LogDirectoryWatcher: A directory notification for 'F:/Juegos Epic/UE_4.16/FeaturePacks/' was aborted.
+[2020.10.29-16.39.24:927][140]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2020.10.29-16.39.24:927][140]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2020.10.29-16.39.24:927][140]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2020.10.29-16.39.24:927][140]LogDirectoryWatcher: A directory notification for 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/Collections/' was aborted.
+[2020.10.29-16.39.24:927][140]LogDirectoryWatcher: A directory notification for 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/Developers/aleja/Collections/' was aborted.
+[2020.10.29-16.39.24:927][140]LogDirectoryWatcher: A directory notification for 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Saved/Collections/' was aborted.
+[2020.10.29-16.39.24:927][140]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2020.10.29-16.39.24:937][140]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2020.10.29-16.39.24:937][140]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2020.10.29-16.39.24:974][140]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2020.10.29-16.39.24:974][140]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2020.10.29-16.39.24:974][140]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2020.10.29-16.39.24:974][140]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2020.10.29-16.39.24:974][140]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2020.10.29-16.39.24:974][140]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2020.10.29-16.39.24:990][140]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2020.10.29-16.39.25:005][140]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2020.10.29-16.39.25:020][140]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2020.10.29-16.39.25:038][140]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2020.10.29-16.39.25:051][140]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2020.10.29-16.39.25:105][140]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2020.10.29-16.39.25:105][140]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2020.10.29-16.39.25:105][140]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2020.10.29-16.39.25:105][140]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2020.10.29-16.39.25:105][140]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2020.10.29-16.39.25:105][140]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2020.10.29-16.39.25:105][140]LogModuleManager: Shutting down and abandoning module Media (471)
+[2020.10.29-16.39.25:105][140]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2020.10.29-16.39.25:105][140]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2020.10.29-16.39.25:105][140]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2020.10.29-16.39.25:113][140]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2020.10.29-16.39.25:129][140]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2020.10.29-16.39.25:129][140]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2020.10.29-16.39.25:129][140]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2020.10.29-16.39.25:129][140]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2020.10.29-16.39.25:129][140]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2020.10.29-16.39.25:151][140]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2020.10.29-16.39.25:185][140]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2020.10.29-16.39.25:223][140]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2020.10.29-16.39.25:243][140]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2020.10.29-16.39.25:243][140]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2020.10.29-16.39.25:269][140]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2020.10.29-16.39.25:269][140]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2020.10.29-16.39.25:269][140]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2020.10.29-16.39.25:647][140]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2020.10.29-16.39.25:647][140]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2020.10.29-16.39.25:647][140]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2020.10.29-16.39.25:676][140]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2020.10.29-16.39.25:693][140]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2020.10.29-16.39.25:693][140]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2020.10.29-16.39.25:694][140]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2020.10.29-16.39.25:694][140]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2020.10.29-16.39.25:702][140]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2020.10.29-16.39.25:705][140]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2020.10.29-16.39.25:705][140]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2020.10.29-16.39.25:719][140]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2020.10.29-16.39.25:734][140]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2020.10.29-16.39.25:734][140]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2020.10.29-16.39.25:753][140]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2020.10.29-16.39.25:762][140]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2020.10.29-16.39.25:762][140]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2020.10.29-16.39.25:762][140]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2020.10.29-16.39.25:762][140]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2020.10.29-16.39.25:794][140]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2020.10.29-16.39.25:822][140]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2020.10.29-16.39.25:835][140]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2020.10.29-16.39.25:836][140]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2020.10.29-16.39.25:848][140]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2020.10.29-16.39.25:902][140]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2020.10.29-16.39.25:928][140]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2020.10.29-16.39.25:951][140]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2020.10.29-16.39.25:964][140]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2020.10.29-16.39.25:965][140]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2020.10.29-16.39.25:977][140]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2020.10.29-16.39.25:983][140]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2020.10.29-16.39.25:983][140]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2020.10.29-16.39.25:983][140]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2020.10.29-16.39.25:983][140]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2020.10.29-16.39.25:992][140]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2020.10.29-16.39.25:994][140]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2020.10.29-16.39.26:003][140]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2020.10.29-16.39.26:014][140]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2020.10.29-16.39.26:027][140]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2020.10.29-16.39.26:027][140]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2020.10.29-16.39.26:027][140]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2020.10.29-16.39.26:028][140]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2020.10.29-16.39.26:028][140]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2020.10.29-16.39.26:028][140]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2020.10.29-16.39.26:029][140]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2020.10.29-16.39.26:068][140]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2020.10.29-16.39.26:068][140]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2020.10.29-16.39.26:068][140]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2020.10.29-16.39.26:068][140]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2020.10.29-16.39.26:068][140]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2020.10.29-16.39.26:068][140]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2020.10.29-16.39.26:080][140]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2020.10.29-16.39.26:081][140]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2020.10.29-16.39.26:107][140]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2020.10.29-16.39.26:247][140]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2020.10.29-16.39.26:277][140]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2020.10.29-16.39.26:277][140]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2020.10.29-16.39.26:277][140]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2020.10.29-16.39.26:288][140]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2020.10.29-16.39.26:306][140]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2020.10.29-16.39.26:306][140]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2020.10.29-16.39.26:306][140]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2020.10.29-16.39.26:306][140]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2020.10.29-16.39.26:306][140]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2020.10.29-16.39.26:324][140]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2020.10.29-16.39.26:324][140]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2020.10.29-16.39.26:324][140]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2020.10.29-16.39.26:337][140]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2020.10.29-16.39.26:337][140]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2020.10.29-16.39.26:349][140]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2020.10.29-16.39.26:349][140]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2020.10.29-16.39.26:354][140]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2020.10.29-16.39.26:354][140]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2020.10.29-16.39.26:354][140]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2020.10.29-16.39.26:354][140]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2020.10.29-16.39.26:354][140]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2020.10.29-16.39.26:379][140]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2020.10.29-16.39.26:420][140]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2020.10.29-16.39.26:432][140]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2020.10.29-16.39.26:432][140]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2020.10.29-16.39.26:432][140]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2020.10.29-16.39.26:441][140]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2020.10.29-16.39.26:476][140]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2020.10.29-16.39.26:487][140]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2020.10.29-16.39.26:500][140]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2020.10.29-16.39.26:500][140]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2020.10.29-16.39.26:500][140]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2020.10.29-16.39.26:500][140]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2020.10.29-16.39.26:506][140]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2020.10.29-16.39.26:507][140]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2020.10.29-16.39.26:519][140]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2020.10.29-16.39.26:542][140]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2020.10.29-16.39.26:550][140]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2020.10.29-16.39.26:563][140]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2020.10.29-16.39.26:572][140]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2020.10.29-16.39.26:572][140]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2020.10.29-16.39.26:572][140]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2020.10.29-16.39.26:572][140]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2020.10.29-16.39.26:574][140]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2020.10.29-16.39.26:674][140]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2020.10.29-16.39.26:784][140]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2020.10.29-16.39.26:805][140]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2020.10.29-16.39.26:806][140]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2020.10.29-16.39.26:806][140]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2020.10.29-16.39.26:840][140]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2020.10.29-16.39.26:840][140]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2020.10.29-16.39.26:842][140]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2020.10.29-16.39.26:842][140]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2020.10.29-16.39.26:843][140]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2020.10.29-16.39.26:861][140]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2020.10.29-16.39.26:876][140]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2020.10.29-16.39.26:891][140]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2020.10.29-16.39.26:909][140]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2020.10.29-16.39.26:909][140]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2020.10.29-16.39.26:914][140]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2020.10.29-16.39.26:928][140]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2020.10.29-16.39.26:948][140]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2020.10.29-16.39.26:948][140]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2020.10.29-16.39.27:013][140]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2020.10.29-16.39.27:013][140]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2020.10.29-16.39.27:018][140]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2020.10.29-16.39.27:027][140]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2020.10.29-16.39.27:096][140]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2020.10.29-16.39.27:114][140]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2020.10.29-16.39.27:161][140]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2020.10.29-16.39.27:161][140]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2020.10.29-16.39.27:161][140]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2020.10.29-16.39.27:189][140]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2020.10.29-16.39.27:189][140]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2020.10.29-16.39.27:192][140]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2020.10.29-16.39.27:192][140]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2020.10.29-16.39.27:192][140]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2020.10.29-16.39.27:192][140]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2020.10.29-16.39.27:192][140]LogModuleManager: Shutting down and abandoning module Core (164)
+[2020.10.29-16.39.27:192][140]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2020.10.29-16.39.27:456][140]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2020.10.29-16.39.27:456][140]LogDirectoryWatcher: A directory notification for 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Juego1/Content/' was aborted.
+[2020.10.29-16.39.27:456][140]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2020.10.29-16.39.27:456][140]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2020.10.29-16.39.27:472][140]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2020.10.29-16.39.27:475][140]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2020.10.29-16.39.27:475][140]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2020.10.29-16.39.27:475][140]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2020.10.29-16.39.27:475][140]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2020.10.29-16.39.27:500][140]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2020.10.29-16.39.27:507][140]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2020.10.29-16.39.27:507][140]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2020.10.29-16.39.27:511][140]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2020.10.29-16.39.27:588][140]LogDerivedDataCache: Shutdown
+[2020.10.29-16.39.27:588][140]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2020.10.29-16.39.27:588][140]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2020.10.29-16.39.27:592][140]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2020.10.29-16.39.27:596][140]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2020.10.29-16.39.27:604][140]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2020.10.29-16.39.27:609][140]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2020.10.29-16.39.27:614][140]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2020.10.29-16.39.27:614][140]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2020.10.29-16.39.27:614][140]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2020.10.29-16.39.27:614][140]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2020.10.29-16.39.27:615][140]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2020.10.29-16.39.27:615][140]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2020.10.29-16.39.27:615][140]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2020.10.29-16.39.27:615][140]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2020.10.29-16.39.27:615][140]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2020.10.29-16.39.27:615][140]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2020.10.29-16.39.27:615][140]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2020.10.29-16.39.27:615][140]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2020.10.29-16.39.27:615][140]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2020.10.29-16.39.27:615][140]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2020.10.29-16.39.27:615][140]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2020.10.29-16.39.27:615][140]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2020.10.29-16.39.27:615][140]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2020.10.29-16.39.27:615][140]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2020.10.29-16.39.27:615][140]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2020.10.29-16.39.27:618][140]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2020.10.29-16.39.27:618][140]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2020.10.29-16.39.27:630][140]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2020.10.29-16.39.27:639][140]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2020.10.29-16.39.27:649][140]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2020.10.29-16.39.27:655][140]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2020.10.29-16.39.27:655][140]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2020.10.29-16.39.27:671][140]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2020.10.29-16.39.27:671][140]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2020.10.29-16.39.27:671][140]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2020.10.29-16.39.27:671][140]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2020.10.29-16.39.27:671][140]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2020.10.29-16.39.27:671][140]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2020.10.29-16.39.27:671][140]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2020.10.29-16.39.27:671][140]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2020.10.29-16.39.27:671][140]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2020.10.29-16.39.27:671][140]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2020.10.29-16.39.27:671][140]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2020.10.29-16.39.27:671][140]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2020.10.29-16.39.27:685][140]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2020.10.29-16.39.27:685][140]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2020.10.29-16.39.27:709][140]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2020.10.29-16.39.27:709][140]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2020.10.29-16.39.27:709][140]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2020.10.29-16.39.27:709][140]LogOnline:Display: Unloading online subsystem: NULL
+[2020.10.29-16.39.27:744][140]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2020.10.29-16.39.27:770][140]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2020.10.29-16.39.27:770][140]LogHttp:Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2020.10.29-16.39.27:793][140]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BAE8C5CB5-49A2-EFC0-7BDF-77B1CD085321%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=71e3eede40ce40ba4d60989b4a563073%7C66351ebe36bd4018b833881313c6dbc1%7Ca6157c1d-9ba7-4af0-8766-eef2bb7b5bed&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2020.10.29-16.39.27:793][140]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BAE8C5CB5-49A2-EFC0-7BDF-77B1CD085321%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=71e3eede40ce40ba4d60989b4a563073%7C66351ebe36bd4018b833881313c6dbc1%7Ca6157c1d-9ba7-4af0-8766-eef2bb7b5bed&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2020.10.29-16.39.27:822][140]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2020.10.29-16.39.27:849][140]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2020.10.29-16.39.27:862][140]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2020.10.29-16.39.27:874][140]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2020.10.29-16.39.27:874][140]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2020.10.29-16.39.27:875][140]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2020.10.29-16.39.27:875][140]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2020.10.29-16.39.27:875][140]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2020.10.29-16.39.27:875][140]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2020.10.29-16.39.27:907][140]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2020.10.29-16.39.27:944][140]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2020.10.29-16.39.27:944][140]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2020.10.29-16.39.27:953][140]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2020.10.29-16.39.27:953][140]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2020.10.29-16.39.27:953][140]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2020.10.29-16.39.27:953][140]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2020.10.29-16.39.27:991][140]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2020.10.29-16.39.27:996][140]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2020.10.29-16.39.27:998][140]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2020.10.29-16.39.28:009][140]LogExit: Exiting.
+[2020.10.29-16.39.28:031][140]Log file closed, 10/29/20 17:39:28
